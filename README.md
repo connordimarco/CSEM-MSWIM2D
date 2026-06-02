@@ -11,7 +11,7 @@ All data products are served as static files and returned as
 ## Install
 
 ```
-pip install csem-mswim2d
+pip install mswim2d
 ```
 
 ## Quickstart

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "csem-mswim2d"
+name = "mswim2d"
 version = "0.1.0"
 description = "Python client for the MSWIM2D solar wind model"
 readme = "README.md"
