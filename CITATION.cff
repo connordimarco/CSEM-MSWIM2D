@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the MSWIM2D model below."
+title: "CSEM-MSWIM2D: Python package for accessing MSWIM2D data"
+type: software
+authors:
+  - family-names: DiMarco
+    given-names: Connor C.
+    orcid: https://orcid.org/0000-0003-0706-4309
+    affiliation: University of Michigan
+version: 0.1.0
+license: MIT
+repository-code: https://github.com/connordimarco/CSEM-MSWIM2D
+preferred-citation:
+  type: article
+  title: "MSWIM2D: Two-Dimensional Outer Heliosphere Solar Wind Modeling"
+  authors:
+    - family-names: Keebler
+      given-names: Timothy B.
+    - family-names: "Tóth"
+      given-names: "Gábor"
+    - family-names: Zieger
+      given-names: Bertalan
+    - family-names: Opher
+      given-names: Merav
+  year: 2022
+  journal: "The Astrophysical Journal Supplement Series"
+  volume: 260
+  notes: "Update doi/url with the published MSWIM2D reference before release."
