@@ -12,6 +12,18 @@ requires-python = ">=3.9"
 authors = [
     { name = "Connor DiMarco" },
 ]
+keywords = [
+    "solar wind", "space weather", "heliophysics", "space physics",
+    "MHD", "heliosphere", "solar wind propagation", "BATSRUS",
+    "planetary space weather", "MSWIM2D",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
 dependencies = [
     "numpy>=1.21",
     "pandas>=1.3",
@@ -22,6 +34,10 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://csem.engin.umich.edu/MSWIM2D/"
+Documentation = "https://csem.engin.umich.edu/MSWIM2D/"
+Repository = "https://github.com/connordimarco/CSEM-MSWIM2D"
+"Bug Tracker" = "https://github.com/connordimarco/CSEM-MSWIM2D/issues"
+"Related Dataset" = "https://csem.engin.umich.edu/MIDL/"
 
 [tool.hatch.build.targets.wheel]
 packages = ["mswim2d"]
