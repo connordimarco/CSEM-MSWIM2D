@@ -14,11 +14,11 @@ from pathlib import Path
 import platformdirs
 import requests
 
-# Base URL of the MSWIM2D web host. Defaults to the staging (.dev) host;
-# override with the MSWIM2D_BASE_URL environment variable (e.g. to point at
-# the production site). A trailing slash is tolerated.
+# Base URL of the MSWIM2D web host. Defaults to the production site; override
+# with the MSWIM2D_BASE_URL environment variable (e.g. to point at a staging
+# host). A trailing slash is tolerated.
 BASE_URL = os.environ.get(
-    "MSWIM2D_BASE_URL", "https://csem.engin.umich.edu/MSWIM2D.dev"
+    "MSWIM2D_BASE_URL", "https://csem.engin.umich.edu/MSWIM2D"
 ).rstrip("/")
 
 _TIMEOUT = 60
